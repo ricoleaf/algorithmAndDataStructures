@@ -2,6 +2,7 @@ package practise.array;
 
 
 import java.util.Arrays;
+import java.util.UUID;
 
 /**
  *  JZ37 把数组排成最小的数
@@ -12,7 +13,9 @@ public class PrintMinNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(printMin(new int[]{3,32,321}));
+        //System.out.println(printMin(new int[]{3,32,321}));
+        UUID uuid = UUID.randomUUID();
+        System.out.println(UUID.randomUUID().toString().replaceAll("-",""));
     }
 
     public static String printMin(int[] numbers) {
